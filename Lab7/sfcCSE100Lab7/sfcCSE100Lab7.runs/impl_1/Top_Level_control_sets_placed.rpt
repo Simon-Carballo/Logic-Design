@@ -1,0 +1,96 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Wed Dec  9 13:47:46 2020
+| Host         : SimonLaptopWindows running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Level_control_sets_placed.rpt
+| Design       : Top_Level
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    18 |
+|    Minimum number of control sets                        |    18 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    56 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    18 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |    11 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     5 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              20 |           10 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              92 |           35 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              32 |           14 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------+----------------------------------------+--------------------------+------------------+----------------+
+|           Clock Signal           |              Enable Signal             |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
++----------------------------------+----------------------------------------+--------------------------+------------------+----------------+
+|  global_clk/slowclk/clk_out      | global_clk/slowclk/XLXI_45/CEO         |                          |                1 |              2 |
+|  global_clk/slowclk/clk_out      | Dividermod/Divisor_Adder/counter1/t1_0 |                          |                1 |              4 |
+|  global_clk/slowclk/clk_out      | FSM/t1                                 |                          |                2 |              4 |
+|  global_clk/slowclk/clk_out      | FSM/t1_1                               |                          |                2 |              4 |
+|  global_clk/slowclk/clk_out      | FSM/t1_0                               |                          |                1 |              4 |
+|  global_clk/slowclk/clk_out      | Dividermod/FSM_Divide/add              | Dividermod/FSM_Divide/ld |                1 |              4 |
+|  global_clk/slowclk/clk_out      | Dividermod/Counter/counter1/Up1        | Dividermod/FSM_Divide/ld |                1 |              4 |
+|  global_clk/slowclk/clk_out      | Dividermod/Counter/counter2/Up2        | Dividermod/FSM_Divide/ld |                1 |              4 |
+|  global_clk/slowclk/clk_out      | Dividermod/Counter/counter3/Up3        | Dividermod/FSM_Divide/ld |                2 |              4 |
+|  global_clk/my_clk_inst/clk_out1 |                                        |                          |                2 |              4 |
+|  global_clk/my_clk_inst/clk_out1 | global_clk/slowclk/XLXI_37/I_36_31_n_0 |                          |                2 |              4 |
+|  global_clk/my_clk_inst/clk_out1 | global_clk/slowclk/XLXI_38/CEO         |                          |                2 |              4 |
+|  global_clk/slowclk/clk_out      | global_clk/slowclk/XLXI_40/TC          |                          |                3 |              8 |
+|  global_clk/slowclk/clk_out      |                                        |                          |                8 |             16 |
+|  global_clk/slowclk/clk_out      | Dividermod/Divisor_Adder/counter3/CE0  | Dividermod/FSM_Divide/ld |                9 |             16 |
+|  global_clk/slowclk/clk_out      | FSM/ShowIn                             |                          |                8 |             16 |
+|  global_clk/slowclk/clk_out      | Dividermod/FSM_Divide/CE0              |                          |                6 |             16 |
+|  global_clk/slowclk/clk_out      | global_clk/slowclk/qsec3               |                          |                7 |             26 |
++----------------------------------+----------------------------------------+--------------------------+------------------+----------------+
+
+

@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Oct 15 20:12:40 2020
+# Process ID: 1648
+# Current directory: C:/Users/Simon Carballo/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4756
+# Log file: C:/Users/Simon Carballo/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Simon Carballo/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.xpr}
+update_compile_order -fileset sources_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+synth_design -rtl -name rtl_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+set_property name impl_2 [get_runs impl_1]
+launch_runs impl_2
+wait_on_run impl_2
+launch_runs impl_2 -to_step write_bitstream
+wait_on_run impl_2
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.runs/impl_2/Main.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.runs/impl_2/Main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+archive_project {C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2.xpr.zip} -temp_dir {C:/Users/Simon Carballo/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-1648-DESKTOP-ARRDQIN} -force -include_local_ip_cache

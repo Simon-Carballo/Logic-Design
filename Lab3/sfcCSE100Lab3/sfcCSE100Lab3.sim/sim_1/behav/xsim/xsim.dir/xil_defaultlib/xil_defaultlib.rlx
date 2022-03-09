@@ -1,0 +1,15 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/Desktop/CSE100/lab3_digsel.v,1603406299,verilog,,C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/Top_Level.v,,,,,,,,,,
+C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/lab3_digsel.v,1603406299,verilog,,C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sim_1/new/Top_Level_Simulation.v,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;lab3_digsel,,,,,,,,
+C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sim_1/new/Top_Level_Simulation.v,1603440421,verilog,,,,Top_Level_Simulation,,,,,,,,
+C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/Full_Adder.v,1603407458,verilog,,C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/Incrementer.v,,Full_Adder,,,,,,,,
+C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/Incrementer.v,1603445750,verilog,,C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/MUX2_1x8.v,,Incrementer,,,,,,,,
+C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/MUX2_1x8.v,1603412242,verilog,,C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/MUX4_1.v,,MUX2_1x8,,,,,,,,
+C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/MUX4_1.v,1603408969,verilog,,C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/MUX8_1.v,,MUX4_1,,,,,,,,
+C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/MUX8_1.v,1604111506,verilog,,C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/Segment_Display.v,,MUX8_1,,,,,,,,
+C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/Segment_Display.v,1603441849,verilog,,C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/Desktop/CSE100/lab3_digsel.v,,Segment_Display,,,,,,,,
+C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/Top_Level.v,1603840175,verilog,,C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/lab3_digsel.v,,Top_Level,,,,,,,,

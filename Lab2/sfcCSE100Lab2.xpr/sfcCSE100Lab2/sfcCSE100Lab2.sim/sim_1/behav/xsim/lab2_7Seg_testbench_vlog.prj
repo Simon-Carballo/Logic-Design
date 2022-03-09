@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../sfcCSE100Lab2.srcs/sources_1/new/4-Bit_Adder.v" \
+"../../../../sfcCSE100Lab2.srcs/sources_1/new/Converter.v" \
+"../../../../sfcCSE100Lab2.srcs/sources_1/new/Full_Adder.v" \
+"../../../../sfcCSE100Lab2.srcs/sources_1/new/Main.v" \
+"../../../../sfcCSE100Lab2.srcs/sim_1/imports/Verilog_Sources/lab2_7seg_testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,152 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Oct 15 20:12:40 2020
+# Process ID: 1648
+# Current directory: C:/Users/Simon Carballo/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4756
+# Log file: C:/Users/Simon Carballo/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Simon Carballo/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:42 . Memory (MB): peak = 693.223 ; gain = 111.867
+update_compile_order -fileset sources_1
+launch_runs impl_1
+[Thu Oct 15 20:16:11 2020] Launched impl_1...
+Run output will be captured here: C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.runs/synth_1
+
+launch_runs synth_1
+[Thu Oct 15 20:27:06 2020] Launched synth_1...
+Run output will be captured here: C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.runs/synth_1/runme.log
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Main
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1144.805 ; gain = 155.223
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Main' [C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.srcs/sources_1/new/Main.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Four_Bit_Adder' [C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.srcs/sources_1/new/4-Bit_Adder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Full_Adder' [C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.srcs/sources_1/new/Full_Adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Full_Adder' (1#1) [C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.srcs/sources_1/new/Full_Adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Four_Bit_Adder' (2#1) [C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.srcs/sources_1/new/4-Bit_Adder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Converter' [C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.srcs/sources_1/new/Converter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Converter' (3#1) [C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.srcs/sources_1/new/Converter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Main' (4#1) [C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.srcs/sources_1/new/Main.v:23]
+WARNING: [Synth 8-3917] design Main has port DP driven by constant 1
+WARNING: [Synth 8-3917] design Main has port AN0 driven by constant 0
+WARNING: [Synth 8-3917] design Main has port AN1 driven by constant 1
+WARNING: [Synth 8-3917] design Main has port AN2 driven by constant 1
+WARNING: [Synth 8-3917] design Main has port AN3 driven by constant 1
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1182.008 ; gain = 192.426
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1182.008 ; gain = 192.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1182.008 ; gain = 192.426
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 5 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.srcs/constrs_1/imports/Constraints/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.srcs/constrs_1/imports/Constraints/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1315.246 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:28 ; elapsed = 00:00:56 . Memory (MB): peak = 1361.105 ; gain = 371.523
+13 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:01:23 . Memory (MB): peak = 1361.105 ; gain = 627.477
+launch_runs impl_1
+[Thu Oct 15 20:30:58 2020] Launched impl_1...
+Run output will be captured here: C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+set_property name impl_2 [get_runs impl_1]
+launch_runs impl_2
+[Thu Oct 15 21:09:49 2020] Launched impl_2...
+Run output will be captured here: C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.runs/impl_2/runme.log
+launch_runs impl_2 -to_step write_bitstream
+[Thu Oct 15 21:13:25 2020] Launched impl_2...
+Run output will be captured here: C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.runs/impl_2/runme.log
+open_hw
+open_hw: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2046.309 ; gain = 78.254
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 2064.270 ; gain = 17.703
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89B98A
+open_hw_target: Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 3182.320 ; gain = 1118.051
+set_property PROGRAM.FILE {C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.runs/impl_2/Main.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.runs/impl_2/Main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+close_hw: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 3211.766 ; gain = 0.000
+archive_project {C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2.xpr.zip} -temp_dir {C:/Users/Simon Carballo/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-1648-DESKTOP-ARRDQIN} -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Simon Carballo/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-1648-DESKTOP-ARRDQIN' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/Simon Carballo/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-1648-DESKTOP-ARRDQIN/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_2'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

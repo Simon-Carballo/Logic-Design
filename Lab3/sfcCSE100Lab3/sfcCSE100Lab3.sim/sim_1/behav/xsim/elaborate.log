@@ -1,0 +1,15 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto edd62a76e0eb48cd859c767aa0af7aed --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_Level_Simulation_behav xil_defaultlib.Top_Level_Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'sel' [C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/Segment_Display.v:28]
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 8 for port 'out' [C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/Top_Level.v:49]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'sel' [C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/Segment_Display.v:29]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'sel' [C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/Segment_Display.v:30]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'sel' [C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/Segment_Display.v:31]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'sel' [C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/Segment_Display.v:32]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'sel' [C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/Segment_Display.v:33]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'sel' [C:/Users/Simon/OneDrive/Desktop/CSE100/Lab3/sfcCSE100Lab3/sfcCSE100Lab3.srcs/sources_1/new/Segment_Display.v:34]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

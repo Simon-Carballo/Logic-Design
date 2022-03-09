@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../sfcCSE100Lab3.srcs/sources_1/new/Full_Adder.v" \
+"../../../../sfcCSE100Lab3.srcs/sources_1/new/Incrementer.v" \
+"../../../../sfcCSE100Lab3.srcs/sources_1/new/MUX2_1x8.v" \
+"../../../../sfcCSE100Lab3.srcs/sources_1/new/MUX4_1.v" \
+"../../../../sfcCSE100Lab3.srcs/sources_1/new/MUX8_1.v" \
+"../../../../sfcCSE100Lab3.srcs/sources_1/new/Segment_Display.v" \
+"../../../../../Desktop/CSE100/lab3_digsel.v" \
+"../../../../sfcCSE100Lab3.srcs/sources_1/new/Top_Level.v" \
+"../../../../../lab3_digsel.v" \
+"../../../../sfcCSE100Lab3.srcs/sim_1/new/Top_Level_Simulation.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

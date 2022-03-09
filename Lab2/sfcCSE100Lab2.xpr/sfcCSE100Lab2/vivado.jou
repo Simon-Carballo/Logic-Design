@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Oct 23 01:40:22 2020
+# Process ID: 14328
+# Current directory: C:/Users/Simon/Desktop/CSE100/sfcCSE100Lab2.xpr/sfcCSE100Lab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10000 C:\Users\Simon\Desktop\CSE100\sfcCSE100Lab2.xpr\sfcCSE100Lab2\sfcCSE100Lab2.xpr
+# Log file: C:/Users/Simon/Desktop/CSE100/sfcCSE100Lab2.xpr/sfcCSE100Lab2/vivado.log
+# Journal file: C:/Users/Simon/Desktop/CSE100/sfcCSE100Lab2.xpr/sfcCSE100Lab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Simon/Desktop/CSE100/sfcCSE100Lab2.xpr/sfcCSE100Lab2/sfcCSE100Lab2.xpr
+open_hw
+connect_hw_server
+update_compile_order -fileset sources_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server

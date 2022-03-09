@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Oct 15 21:13:43 2020
+# Process ID: 1084
+# Current directory: C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.runs/impl_2
+# Command line: vivado.exe -log Main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Main.tcl -notrace
+# Log file: C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.runs/impl_2/Main.vdi
+# Journal file: C:/Users/Simon Carballo/Desktop/sfcCSE100Lab2/sfcCSE100Lab2.runs/impl_2\vivado.jou
+#-----------------------------------------------------------
+source Main.tcl -notrace
